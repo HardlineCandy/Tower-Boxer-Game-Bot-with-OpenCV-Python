@@ -3,9 +3,6 @@
 ## Giriş
 Bu projede www.addictinggames.com sitesindeki Tower Boxer oyununu oynayan bir algoritma geliştirildi. Yazılım oyundan veri almak için oyunun ekran görüntüsü üzerinde görüntü işleme yapar ve klavye fonksiyonlarını taklit ederek oyuna girdi gönderir. Yazılım oyunu oynamak için oyunun kaynak kodlarına erişmeye gerek duymaz. Dışarıdan gerçek bir oyuncunun oynadığı gibi oyun ile etkileşime geçer.
 
-## Kod Açıklamaları
-_Düzenleniyor._
-
 ## Kodu Kendi Bilgisayarınızda Çalıştırabilmeniz İçin
 Yazılımı çalıştırdıktan sonra esc tuşuna basarak kapatabilirsiniz. Oyun esnasında yazılım sürekli sağ veya sol ok tuşlarına basacağı için yazılımı kapatmak istediğinizde esc kısayolunu kullanmak kolaylık sağlayacaktır.
 
@@ -24,6 +21,9 @@ _Düzenleniyor._
 
 Runtime Broker hakkında:  
 Ayarlamaları yaptınız ve yazılım düzgün bir şekilde çalıştı. Ancak kapatıp tekrar çalıştırdığınızda bu sefer düzgün çalışmayabilir. Bunun nedeni Windows'taki Runtime Broker özelliğidir. Algoritma sağ veya sol ok tuşlarına çok hızlı bir şekilde bastığı için Runtime Broker bunu zararlı bir şey olarak algılayıp engelleyebilir. Böyle bir şey olduğunu hissettiğinizde görev yöneticisinden Runtime Broker görevlerini sonlandırabilirsiniz.
+
+## Kod Açıklamaları
+_Düzenleniyor._
 
 ## Tanıtım Videosu
 
