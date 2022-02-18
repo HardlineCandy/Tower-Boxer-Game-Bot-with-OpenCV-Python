@@ -1,7 +1,7 @@
 # Tower Boxer Game Bot with OpenCV Python
 
 ## Giriş
-Bu projede www.addictinggames.com sitesindeki Tower Boxer oyununu oynayan bir algoritma geliştirildi. Yazılım oyundan veri almak için oyunun ekran görüntüsü üzerinde görüntü işleme yapar ve klavye fonksiyonlarını taklit ederek oyuna girdi gönderir.
+Bu projede www.addictinggames.com sitesindeki Tower Boxer oyununu oynayan bir algoritma geliştirildi. Yazılım oyundan veri almak için oyunun ekran görüntüsü üzerinde görüntü işleme yapar ve klavye fonksiyonlarını taklit ederek oyuna girdi gönderir. Yazılım oyunu oynamak için oyunun kaynak kodlarına erişmeye gerek duymaz. Dışarıdan gerçek bir oyuncunun oynadığı gibi oyun ile etkileşime geçer.
 
 ## Kod Açıklamaları
 _Düzenleniyor._
