@@ -7,7 +7,7 @@ Bu projede www.addictinggames.com sitesindeki Tower Boxer oyununu oynayan bir al
 _Düzenleniyor._
 
 ## Kodu Kendi Bilgisayarınızda Çalıştırabilmeniz İçin
-Yazılımı çalıştırdıktan sonra esc tuşuna basarak kapatabilirsiniz. Oyun esnasında yazılım sürekli sağ veya sol ok tuşlarına basacağı için yazılımı kapatmak istediğinizde esc kısayolunu kullanmak kolaylık sağlayacaktır. Yazılım içerisinde delay kullanıldığından dolayı tuşun algılanması için esc tuşuna birkaç kez basmanız gerekebilir.
+Yazılımı çalıştırdıktan sonra esc tuşuna basarak kapatabilirsiniz. Oyun esnasında yazılım sürekli sağ veya sol ok tuşlarına basacağı için yazılımı kapatmak istediğinizde esc kısayolunu kullanmak kolaylık sağlayacaktır.
 
 Yazılımın bilgisayarınızda çalışabilmesi için aşağıdaki kütüphanelerin yüklü olması gerekmektedir.   
 opencv  
