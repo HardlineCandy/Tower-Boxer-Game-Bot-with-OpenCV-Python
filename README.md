@@ -7,6 +7,19 @@ Bu projede www.addictinggames.com sitesindeki Tower Boxer oyununu oynayan bir al
 _Düzenleniyor._
 
 ## Kodu Kendi Bilgisayarınızda Çalıştırabilmeniz İçin
+Yazılımı çalıştırdıktan sonra esc tuşuna basarak kapatabilirsiniz. Oyun esnasında yazılım sürekli sağ veya sol ok tuşlarına basacağı için yazılımı kapatmak istediğinizde esc kısayolunu kullanmak kolaylık sağlayacaktır. Yazılım içerisinde delay kullanıldığından dolayı tuşun algılanması için esc tuşuna birkaç kez basmanız gerekebilir.
+
+Yazılımın bilgisayarınızda çalışabilmesi için aşağıdaki kütüphanelerin yüklü olması gerekmektedir. 
+opencv
+numpy
+keyboard
+pillow
+mss
+pywin32
+
+Bu yazılım windows ortamında geliştirilip test edildi. Diğer ortamlarda test edilmedi. Klavye fonksiyonları windows'a göre yapıldı. Diğer işletim sistemlerinde çalıştırmak isterseniz klavye işlemlerini uyarlamanız muhtemelen yeterli olacaktır.
+
+Bu projede ekran görüntüsü alınmakta ve bu ekran görüntüsü üzerinde işlem yapılmaktadır. Dolayısıyla sizin ekranınızın çözünürlüğü, oyunun ekran üzerindeki konumu ve oyun penceresinin boyutu gibi etkenler değişiklik göstereceği için yazılım yüksek ihtimalle ilk seferde bilgisayarınızda düzgün çalışmayacaktır. Öncelikle yazılımı kendi ekranınıza göre uyarlamanız gerekmektedir. Bunun için yapmanız gerekenler ...
 _Düzenleniyor._
 
 ## Tanıtım Videosu
