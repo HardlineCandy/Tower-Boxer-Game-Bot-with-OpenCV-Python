@@ -10,12 +10,12 @@ _Düzenleniyor._
 Yazılımı çalıştırdıktan sonra esc tuşuna basarak kapatabilirsiniz. Oyun esnasında yazılım sürekli sağ veya sol ok tuşlarına basacağı için yazılımı kapatmak istediğinizde esc kısayolunu kullanmak kolaylık sağlayacaktır. Yazılım içerisinde delay kullanıldığından dolayı tuşun algılanması için esc tuşuna birkaç kez basmanız gerekebilir.
 
 Yazılımın bilgisayarınızda çalışabilmesi için aşağıdaki kütüphanelerin yüklü olması gerekmektedir. 
-opencv
-numpy
-keyboard
-pillow
-mss
-pywin32
+opencv  
+numpy  
+keyboard  
+pillow  
+mss  
+pywin32  
 
 Bu yazılım windows ortamında geliştirilip test edildi. Diğer ortamlarda test edilmedi. Klavye fonksiyonları windows'a göre yapıldı. Diğer işletim sistemlerinde çalıştırmak isterseniz klavye işlemlerini uyarlamanız muhtemelen yeterli olacaktır.
 
