@@ -75,10 +75,10 @@ boksor_loc = 1 # 0: sol , 1: sag
 #boksorün konumu. tüm ekrandaki değil.
 boksor_y_loc = 560
 
-left_obstacle_img = cv2.imread('engel_sol.png')
+left_obstacle_img = cv2.imread('obstacle_left.png')
 left_obstacle_img = cv2.cvtColor(left_obstacle_img, cv2.COLOR_BGR2RGB)
 
-right_obstacle_img = cv2.imread('engel_sag.png')
+right_obstacle_img = cv2.imread('obstacle_right.png')
 right_obstacle_img = cv2.cvtColor(right_obstacle_img, cv2.COLOR_BGR2RGB)
 
 i = 0
