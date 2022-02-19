@@ -42,7 +42,7 @@ def find_object(big_img, small_img):
     result = cv2.matchTemplate(big_img, small_img, cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
 
-    threshold = 0.94
+    threshold = 0.93
 
     y, x = np.where( result >= threshold)
     
