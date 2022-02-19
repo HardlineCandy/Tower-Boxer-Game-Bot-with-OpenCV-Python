@@ -5,7 +5,7 @@ import time
 from PIL import Image
 from mss import mss
 
-#https://pythonmana.com/2021/04/20210413180602497y.html
+# https://pythonmana.com/2021/04/20210413180602497y.html
 # https://gist.github.com/chriskiehl/2906125
 import win32api
 import win32con
