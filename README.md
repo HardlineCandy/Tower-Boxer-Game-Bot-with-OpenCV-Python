@@ -26,5 +26,8 @@ Ayarlamaları yaptınız ve yazılım düzgün bir şekilde çalıştı. Ancak k
 _Düzenleniyor._
 
 ## Tanıtım Videosu
-
+<!--  
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LMXFIlBQ0YM/0.jpg)](https://www.youtube.com/watch?v=LMXFIlBQ0YM)
+-->
+https://youtu.be/LMXFIlBQ0YM
+
