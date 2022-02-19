@@ -33,7 +33,7 @@ Satır 20-29: Yazılım oyunu oynarken tüm ekran görüntüsüne bakmıyor. Sad
 ### Tam ekran görüntüsü:  
 ![Screenshot](FullScreen.png)  
 
-### Bakılan bölge:  
+### Bakılan bölge (oyun bölgesi):  
 ![Screenshot](GameScreen.png)  
 
 take_ss fonksiyonu: Bu fonksiyon kendisine verilen bölgenin ekran görüntüsünü RGB formatında alır ve bunu bir numpy dizisine kaydedip döndürür. 
@@ -52,7 +52,21 @@ Satır 78-82: Oyun görselinde aranacak olan engellerin fotoğrafları burada ya
 
 distance_tresh değişkeni: Boksörün üst noktası ile en alttaki engel arasında ne kadar mesafe olursa boksörün diğer tarafa geçmesi gerektiğini belirleyen değişken. Siz bu değişkeni kendi ekran çözünürlüğünüze göre uyarlamalısınız. Eğer ekran çözünürlüğünüz daha düşük ise bu değişken azalmalı. Eğer daha yüksek ise bu değişken artmalı.
 
-_Düzenleniyor._
+while döngüsünde öncelikle oyun bölgesinin ekran görüntüsü alınır. Ardından boksör hangi tarafta ise o taraftaki engeller template matching yöntemi ile bulunur. Bunun için oyun görüntüsü içerisinde engelin fotoğrafı aranır. Sağ ve sol bölgeler için engel fotoğrafları aşağıda verilmiştir.
+
+### Sol engel parçası:  
+![Screenshot](obstacle_left.png)  
+
+### Sağ engel parçası:  
+![Screenshot](obstacle_right.png)  
+
+Ekranda birden fazla engel olabilir. Bu durumda bu engellerin hepsi bulunur. Aşağıdaki görselde bulunan engeller yeşil dikdörtgen içine alınarak gösterilmiştir.
+
+### Engel bulma:  
+![Screenshot](Obstacles.png)  
+
+Bulunan tüm engellerin y ekseni konumu ile boksörün y ekseni konumu karşılaştırılır ve aradaki mesafe belirli bir değerden daha küçük ise boksörün diğer tarafa geçmesi sağlanır. Eğer tüm engeller boksöre uzaksa o zaman boksörün aynı tarafta kalmasını sağlayacak butona basılır.
+
 
 ## Tanıtım Videosu  
 <!--  
