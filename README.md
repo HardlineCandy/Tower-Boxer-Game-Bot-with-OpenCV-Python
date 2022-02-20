@@ -2,6 +2,7 @@
 
 ## Giriş  
 Bu projede www.addictinggames.com sitesindeki Tower Boxer oyununu oynayan bir algoritma geliştirildi. Yazılım oyundan veri almak için oyunun ekran görüntüsü üzerinde görüntü işleme yapar ve klavye fonksiyonlarını taklit ederek oyuna girdi gönderir. Yazılım oyunu oynamak için oyunun kaynak kodlarına erişmeye gerek duymaz. Dışarıdan gerçek bir oyuncunun oynadığı gibi oyun ile etkileşime geçer.
+Oyunun Linki: https://www.addictinggames.com/action/tower-boxer
 
 ## Kodu Kendi Bilgisayarınızda Çalıştırabilmeniz İçin  
 Yazılımı çalıştırdıktan sonra esc tuşuna basarak kapatabilirsiniz. Oyun esnasında yazılım sürekli sağ veya sol ok tuşlarına basacağı için yazılımı kapatmak istediğinizde esc kısayolunu kullanmak kolaylık sağlayacaktır.
